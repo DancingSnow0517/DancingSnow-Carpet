@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "template_mod",
+  "id": "dancingsnow_carpet",
   "version": "${version}",
 
-  "name": "template_mod",
+  "name": "DancingSnow's Carpet",
   "description": "",
   "authors": [
-    "Fallen_Breath"
+    "DancingSnow"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/",
     "sources": "https://github.com/"
   },
 
-  "icon": "assets/template_mod/icon.png",
+  "icon": "assets/dancingsnow_carpet/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.fallenbreath.template_mod.TemplateMod"
+      "cn.dancingsnow.carpet.CarpetMod"
     ]
   },
   "mixins": [
-    "template_mod.mixins.json"
+    "dancingsnow_carpet.mixins.json"
   ],
 
   "depends": {
